@@ -76,6 +76,7 @@ main p{
     font-weight: 700;
     text-transform:uppercase;
     border-radius: 50px;
+    cursor: pointer;
 }
 .Signup-btn{
     padding: 10px 20px;
@@ -88,8 +89,24 @@ main p{
     border-radius: 50px;
 }
 @media screen  and (max-width:1024px) {
-    .hero-img{
+    header{
         flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        margin-left: 400px;
+        
     }
+    main{
+        margin-top: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-right{
+        width: 500px;
 
+    }
+    .content-left{
+        width: 400px;
+        margin-left: 400px;
+    }
 }
